@@ -4,7 +4,7 @@ import { userAuthentication } from '../middleWare/userJwtAuth.js'
 
 const router = express()
 
-router.post('/createuser', createUser) // receive and verify 
+router.post('/createuser', createUser)
 
 
 router.post('/login', loginUser) //create and send
